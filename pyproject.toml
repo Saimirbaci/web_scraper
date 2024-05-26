@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-scraper"
+version = "0.1.0"
+description = "A sample project to perform web_scraping and will be improved by autonomous agents."
+authors = ["Saimir Baci <saimirbaci@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+requests = "^2.32.2"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
